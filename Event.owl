@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasCity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasCity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEvent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasState">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasCountry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasLatitude&amp;Longitute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasLatitude&amp;Longitute">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasCity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventID">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventProperties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventStartTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventStartTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#isOfCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#isOfCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#isOnDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#isOnDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#hasEventProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Latitude&amp;Longitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#Latitude&amp;Longitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-8#City"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

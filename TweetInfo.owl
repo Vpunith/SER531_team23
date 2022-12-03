@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetEventName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetEventName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetID">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetLatitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetLatitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetLongitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetLongitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetSource -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetSource">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetUserName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetUserName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#hasTweetInfoDataProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pvaddi/ontologies/2022/10/untitled-ontology-9#TweetInfo"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

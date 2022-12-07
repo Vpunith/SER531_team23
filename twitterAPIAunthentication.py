@@ -23,10 +23,8 @@ class MyListener(StreamListener):
         return True
 
 
-auth = tweepy.OAuthHandler("jSYOQvmz9lmZco947OWVVgdze",
-                           "ri08DWJdyuInIPLAkwxj2Sc3T5RL5M1tjaFkRyQvD7hpLgA9Yb")
-auth.set_access_token("1458707545774706695-hEyjIWrJcu855PknNJqmQQEsKkU34E",
-                      "TREA0Bxx61KDIQvKD6R7amxWRJbhusholIRTN1Y0KF0in")
+auth = tweepy.OAuthHandler("")
+auth.set_access_token("")
 
 api = tweepy.API(auth)
 
